@@ -22,6 +22,6 @@ git commit -m 'deploy'
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # https://robdig7x.github.io/vue-oficina-mobile/
 #6f3ef0f060f3d59f39b8075e69cce2b938c8149d
-git push -f git@github.com:robdig7x/vue-oficina-mobile.git master:gh-pages
+git push -f git@github.com:robdig7x/vue-oficina-mobile.git gh-pages
 
 cd -
