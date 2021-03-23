@@ -18,7 +18,6 @@ git commit -m 'deploy => dist subtree'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # https://robdig7x.github.io/vue-oficina-mobile/
-#6f3ef0f060f3d59f39b8075e69cce2b938c8149d
 git push origin --delete gh-pages
 cd -
 git subtree push --prefix dist origin gh-pages
