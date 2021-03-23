@@ -8,6 +8,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build && gulp licenses",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "lint": "vue-cli-service lint",
     "build:tailwind": "tailwind build src/assets/styles/index.css -o src/assets/styles/tailwind.css",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm run serve"
@@ -35,6 +36,7 @@
     "eslint": "7.22.0",
     "eslint-plugin-vue": "7.7.0",
     "postcss": "8.2.8",
+    "push-dir": "^0.4.1",
     "vue-template-compiler": "2.6.12"
   },
   "eslintConfig": {
