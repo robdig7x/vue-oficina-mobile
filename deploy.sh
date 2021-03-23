@@ -10,7 +10,7 @@ cd dist
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
-git add .
+git add -A
 git commit -m 'deploy => dist subtree'
 
 # if you are deploying to https://<USERNAME>.github.io
